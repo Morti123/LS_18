@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229,229,229);
+}
+.all{
+    margin-left: 25vw;
+    width: 50vw;
+}
+.s1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+h1>span{
+    color: gray;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    padding-bottom: 0.3vw;
+    color: rgb(56, 55, 55);
+}
+.list li:hover{
+    color: silver;
+    cursor: pointer;
+}
+hr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:gray;
+    width: 50vw;
+    margin-bottom: 0.7vw;
+}
+.main_img{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  width: 50vw;
+  height: 30vw;
+  object-fit: cover;
+}
+.img_container{
+    margin-top: -5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_container>img{
+    border-radius: 50%;
+    width: 7vw;
+    height: 7vw;
+    border: 5px solid white;
+    object-fit: cover;
+}
+.img_container>img:hover{
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container div{
+    background-color: white;
+    width: 10vw;
+    height: 15vw;
+}
+.container img{
+ padding-top: 0.5vw;
+ padding:0.5vw;
+ width: 10vw;
+ height: 4vw;
+ object-fit: cover;
+}
+.container h3{
+    padding-top: 1vw;
+    padding-left: 1vw;
+    background-color: rgb(46,46,46);
+    color: white;
+    width: 10vw;
+    height:3vw;
+}
+.container p{
+    width: 10vw;
+    color:silver;
+}
+.container2{
+    padding-top: 3vw;
+}
+.container2>h3{
+ color: gray;
+ padding-bottom: 3vw;
+}
+.container2-0{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container2-1 > .may1 > img{
+    width: 15vw;
+    height: 5vw;
+    object-fit: cover;
+}
+.container2-1 > .may1 >h2{
+    left:12vw;
+    top: -4.2vw;
+    width: 3vw;
+    height: 4vw;
+    background-color: rgb(46,46,46);
+    color: white;
+    position: relative;
+}
+.container2-1 > .may1 >p{
+  width: 15vw;
+}
+.container2-1 > .may2 > img{
+    width: 15vw;
+    height: 5vw;
+    object-fit: cover;
+}
+.container2-1 > .may2 >h2{
+    left:12vw;
+    top: -4.2vw;
+    width: 3vw;
+    height: 4vw;
+    background-color: rgb(46,46,46);
+    color: white;
+    position: relative;
+}
+.container2-2 > img{
+    width: 4vw;
+    height: 5vw;
+    object-fit: cover;
+}
+.container2-2 > .may2 >h2{
+    left:12vw;
+    top: -4.2vw;
+    width: 3vw;
+    height: 4vw;
+    background-color: rgb(46,46,46);
+    color: white;
+    position: relative;
+}
+.container2-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container2-2 > h3{
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+    width: 10vw;
+    height: 4vw;
+    background-color: rgb(46,46,46);
+    color: white;
+}
+.container2-2{
+    background-color: white;
+    width: 10vw;
+}
+
